@@ -1,0 +1,20 @@
+{
+  "name": "sandpack-with-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "smooshpack": "0.0.54",
+    "codemirror": "5.45.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

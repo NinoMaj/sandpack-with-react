@@ -1,0 +1,22 @@
+body {
+  padding: 1em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 35vh auto;
+}
+
+.CodeMirror {
+  border: 1px solid #eee;
+  height: 10rem;
+  max-width: 100vw;
+}
+
+.preview-frame {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
